@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">KitapUygulamasi</string>
+    <string-array name="kitaplar">
+        <item>Yüzüklerin Efendisi</item>
+        <item>Harry Potter</item>
+        <item>Kitap3</item>
+    </string-array>
+    <string name="yuzuklerinefendisi">Yüzüklerin Efendisi Açıklama</string>
+    <string name="harrypotter">Harry Potter Açıklama</string>
+    <string name="kitap3">Kitap Açıklama</string>
+</resources>
