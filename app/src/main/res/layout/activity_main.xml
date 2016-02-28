@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
     tools:context="com.example.omerf.kitapuygulamasi.MainActivity">
+<<<<<<< HEAD
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -86,7 +91,85 @@
                 android:layout_marginRight="20dp"/>
         </TableLayout>
 
+=======
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kitap Listeleri"
+            android:textSize="30sp"/>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:entries="@array/kitaplar"
+            android:id="@+id/list1"
+            >
+
+        </ListView>
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="6">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:text="Ekle"
+                android:layout_gravity="bottom"
+                android:layout_weight="3"
+                android:id="@+id/ekle"
+                android:onClick="ekle"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:text="Çıkar"
+                android:layout_gravity="bottom"
+                android:layout_weight="3"
+                android:id="@+id/cikar"
+                android:onClick="cikar"/>
+            <CheckBox
+                android:id="@+id/chk1"
+                style="?android:attr/starStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/chk1_txt" />
+            <CheckBox
+                android:id="@+id/chk2"
+                style="?android:attr/starStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/chk2_txt" />
+        </TableLayout>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rdb1_txt"
+
+            android:checked="true"
+            android:id="@+id/radioButton1"
+            android:layout_marginRight="20dp"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rdb2_txt"
+
+            android:checked="false"
+            android:id="@+id/radioButton2"
+            android:layout_marginRight="20dp"
+            />
+>>>>>>> origin/master
 
 
 
-</LinearLayout>
+    </LinearLayout>
+</ScrollView>
