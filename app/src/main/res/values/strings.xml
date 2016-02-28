@@ -6,21 +6,71 @@
         <item>Harry Potter</item>
         <item>Sherlock Holmes</item>
         <item>Taht Oyunları</item>
+        <item>Simyacı</item>
+        <item>Yüzyıllık Yalnızlık</item>
+        <item>Kitap6 </item>
+        <item>Kitap7</item>
+        <item>Kitap8 </item>
+        <item>Kitap9</item>
+        <item>Kitap10 </item>
+        <item>Kitap11</item>
+        <item>Kitap12 </item>
+        <item>Kitap13</item>
+        <item>Kitap14 </item>
+        <item>Kitap15</item>
+
     </string-array>
+
     <string name="chk1_txt">Begendim</string>
     <string name="chk2_txt">Begenmedim</string>
     <string name="rdb1_txt">Okudum </string>
     <string name="rdb2_txt">Okumadım </string>
+
     <string name="yuzuklerinefendisi"> Yüzuklerin Efendisi, Ingiliz filolojist ve Oxford Universitesi profesoru J.R.R. Tolkien in yazdigi epik fantezi turundeki romandir.
         Hikaye Tolkien in cocuklar icin yazdigi 1937 tarihli Hobbitin devami olarak baslamisti ancak sonunda ondan cok daha buyuk bir eser haline geldi. </string>
 
     <string name="harrypotter">Harry Potter, İngiliz yazar J.K.Rowling tarafindan yedi kitap halinde yazilan fantastik roman serisi ve bu kitaplardan uyarlanan film serisidir.
-Harry Potter serisinin ilk kitabi, Harry Potter ve Felsese Tasi, 1997 yilinda piyasaya cikmistir. Yedi kitaplik serinin gunumuz itibariyle tumu tamamlanip satisa sunulmustur.
-Dunyanin En Hizli Satan Kitabi ve Dunyanin En Cok Satilan Cocuk Romani unvanlarina sahiptir. </string>
-    <string name="sherlockholmes"> Sherlock Holmes, Sir Arthur Conan Doyla tarafindan olusturulan Britanyali hayali dedektif kahraman, polisiye edebiyatinin
-    en onemli kisiliklerinden biridir. Gazetelerde basilmis, ve polisiyenin halk arasinda yayginlasmasina yardimci olmustur. </string>
+         Harry Potter serisinin ilk kitabi, Harry Potter ve Felsese Tasi, 1997 yilinda piyasaya cikmistir. Yedi kitaplik serinin gunumuz itibariyle tumu tamamlanip satisa sunulmustur.
+         Dunyanin En Hizli Satan Kitabi ve Dunyanin En Cok Satilan Cocuk Romani unvanlarina sahiptir. </string>
 
-    <string name="gameofthrones"> Taht Oyunlari (Ingilizce: A Game of Thrones), Amerikan yazar George R. R. Martin in yazmakta olduğu epik fantezi roman serisi Buz ve Atesin Sarkisinin ilk romanidir. Ilk defa 6 Agustos 1996 da yayimlandi.
-        Roman, 1997 Locus Odulunu kazandi ayrica 1998 Nebula Odulu ile 1997 Dunya Fantezi Odulune aday gösterildi. Romandaki Daenerys Targaryen bölümlerini iceren Blood of the Dragon kisa romani, En Iyi Kisa Roman dalinda 1997 de Hugo Odulunu kazandi.
-        Ocak 2011de roman, New York Times en cok satani oldu ve Temmuz 2011de bir numaraya yukseldi.</string>
+    <string name="sherlockholmes"> Sherlock Holmes, Sir Arthur Conan Doyla tarafindan olusturulan Britanyali hayali dedektif kahraman, polisiye edebiyatinin
+        en onemli kisiliklerinden biridir. Gazetelerde basilmis, ve polisiyenin halk arasinda yayginlasmasina yardimci olmustur. </string>
+
+    <string name="gameofthrones"> Taht Oyunlari (Ingilizce: A Game of Thrones), Amerikan yazar George R. R. Martin in yazmakta olduğu epik fantezi roman serisi Buz ve Atesin
+        Sarkisinin ilk romanidir. Ilk defa 6 Agustos 1996 da yayimlandi. Roman, 1997 Locus Odulunu kazandi ayrica 1998 Nebula Odulu ile 1997 Dunya Fantezi Odulune aday gösterildi.
+        Romandaki Daenerys Targaryen bölümlerini iceren Blood of the Dragon kisa romani, En Iyi Kisa Roman dalinda 1997 de Hugo Odulunu kazandi. Ocak 2011de roman,
+        New York Times en cok satani oldu ve Temmuz 2011de bir numaraya yukseldi.</string>
+
+    <string name="simyaci"> Simyaci (Alquimista), Brezilyali eski sarki sozu yazari Paulo Coelhonun, yayinladigi 1988 yilindan bu yana dunyayi birbirine katan,
+        elestirmenler tarafindan bir fenomen olarak degerlendirilen ucuncu romanidir. Simyaci, alti yilda kirk iki ulkede yirmi alti dile cevrildi ve yedi milyondan fazla satti.
+        Bu, Gabriel Garcia Marquezden bu yana gorulmemis bir olay. Roman, yüreginde cocuklugunu yitirmemis olan okurlar için bir klasik kimligi kazanmistir.
+        Simyaci, Ispanyadan kalkip Misir Piramitlerinin eteklerinde hazinesini aramaya giden Enduluslu coban Santiagonun masalsi yasaminin felsefi oykusudur.
+        Simyaciyi bulmak kendini bulmaktır... Simyacinin dunya capinda bu kadar satmasinin sebebi belki de kilavuzculuk niteliginin on planda olmasidir.
+        Simyaciyi okumak , herkes uykudayken safak vakti gunesin dogusunu beklemektir. </string>
+
+    <string name="yuzyillikyalnizlik"> BinDokuzYüzSeksenIki Nobel Edebiyat Odullu, Kolombiyali yazar Gabriel Garcia Marquezin 1967 yilinda Meksikaya ilk gidisinde yazdigi basyapiti;
+        Yazar cocuklugunun gectigi Aracatacayi Macondo adiyla fantastik bir kurguyla sunmustur ve amacini cocukluk gunlerini sanatsal bir dille ardinda birakmak olarak aciklamistir.
+        Kitap buyulu gercekligin en onemli eserlerindendir. Ilk baskisi Sander tarafindan 1974 yilinda yayinlanmistir. Cevirisini Seckin Selvinin yaptigi Can Yayinlari 2005 tarihli
+        27. baskisinin arka kapaginda Garcia Marquezin agzindan su sozler yer almaktadir: Yuzyillik Yalnizliki yazmaya basladigimda, cocuklugumda beni etkilemis olan her seyi edebiyat
+        araciligiyla aktarabilecegim bir yol bulmak istiyordum. Cok kasvetli kocaman bir evde, toprak yiyen bir kiz kardes, gelecegi sezen bir buyukanne ve mutlulukla cilginlik arasinda ayrim gozetmeyen,
+        adlari birornek bir yigin hisim akraba arasinda gecen cocukluk gunlerimi sanatsal bir dille ardimda birakmakti amacim.
+        Yuzyillik Yalnizliki iki yildan daha kisa bir surede yazdim. Ama yazi makinemin basina oturmadan once bu kitap hakkinda dusunmek on bes, on alti
+        yilimi aldi. Buyukannem, en acimasiz seyleri, kilini bile kipirdatmadan, sanki yalnizca gordugu seylermis gibi anlatirdi bana.
+        Anlattigi oykuleri bu kadar degerli kilan seyin, onun duygusuz tavri ve imgelerindeki zenginlik oldugunu kavradim.
+        Yuzyillik Yalnizliki buyukannemin iste bu yontemini kullanarak yazdim. Bu romani buyuk bir dikkat ve keyifle okuyan, hic sasirmayan siradan
+        insanlar tanidim. Sasirmadilar, cunku ben onlara hayatlarinda yeni olan bir sey anlatmamistim. Kitaplarimda gerceklige dayanmayan tek cumle
+        bulamazsiniz. </string>
+
+    <string name="Kitap6">Kitap 6 Aciklama</string>
+    <string name="Kitap7">Kitap 7 Aciklama</string>
+    <string name="Kitap8">Kitap 8 Aciklama</string>
+    <string name="Kitap9">Kitap 9 Aciklama</string>
+    <string name="Kitap10">Kitap 10 Aciklama</string>
+    <string name="Kitap11">Kitap 11 Aciklama</string>
+    <string name="Kitap12">Kitap 12 Aciklama</string>
+    <string name="Kitap13">Kitap 13 Aciklama</string>
+    <string name="Kitap14">Kitap 14 Aciklama</string>
+    <string name="Kitap15">Kitap 15 Aciklama</string>
+
+
 </resources>

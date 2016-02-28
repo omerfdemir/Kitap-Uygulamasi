@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.Button;
+import android.widget.CheckBox;
+import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -18,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
     ListView list1;
     String baslik,aciklama;
     Button ekle,cikar;
-
+    private ImageView resim;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
                 AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
                 baslik = (String) ((TextView) view).getText();
                 builder.setTitle(baslik);
+
                 switch (baslik) {
                     case "Yüzüklerin Efendisi":
                         aciklama = getResources().getString(R.string.yuzuklerinefendisi);
@@ -49,7 +52,46 @@ public class MainActivity extends AppCompatActivity {
                         aciklama = getResources().getString(R.string.sherlockholmes);
                         break;
                     case "Taht Oyunlarý":
-                        aciklama =  getResources().getString(R.string.gameofthrones);
+                        aciklama = getResources().getString(R.string.gameofthrones);
+                        break;
+                    case "Simyacý":
+                        aciklama = getResources().getString(R.string.simyaci);
+                        break;
+                    case "Yüzyýllýk Yalnýzlýk":
+                        aciklama = getResources().getString(R.string.yuzyillikyalnizlik);
+                        break;
+                    case "Kitap6":
+                        aciklama = getResources().getString(R.string.Kitap6);
+                        break;
+                    case "Kitap7":
+                        aciklama = getResources().getString(R.string.Kitap7);
+                        break;
+                    case "Kitap8":
+                        aciklama = getResources().getString(R.string.Kitap8);
+                        break;
+                    case "Kitap9":
+                        aciklama = getResources().getString(R.string.Kitap9);
+                        break;
+                    case "Kitap10":
+                        aciklama = getResources().getString(R.string.Kitap10);
+                        break;
+                    case "Kitap11":
+                        aciklama = getResources().getString(R.string.Kitap11);
+                        break;
+                    case "Kitap12":
+                        aciklama = getResources().getString(R.string.Kitap12);
+                        break;
+                    case "Kitap13":
+                        aciklama = getResources().getString(R.string.Kitap13);
+                        break;
+                    case "Kitap14":
+                        aciklama = getResources().getString(R.string.Kitap14);
+                        break;
+                    case "Kitap15":
+                        aciklama = getResources().getString(R.string.Kitap15);
+                        break;
+
+
                 }
                 builder.setMessage(aciklama);
                 builder.show();

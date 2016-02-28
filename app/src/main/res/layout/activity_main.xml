@@ -13,76 +13,79 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Kitap Listeleri"
-        android:textSize="30sp"/>
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textColor="#a63232"/>
 
     <ListView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:entries="@array/kitaplar"
-        android:id="@+id/list1">
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/kitaplar"
+            android:id="@+id/list1">
+        </ListView>
 
-    </ListView>
     <TableLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:weightSum="6">
-
-        <Button
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:textSize="30sp"
-            android:text="Ekle"
-            android:layout_gravity="bottom"
-            android:layout_weight="3"
-            android:id="@+id/ekle"
-            android:onClick="ekle"/>
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:textSize="30sp"
-            android:text="Çıkar"
-            android:layout_gravity="bottom"
-            android:layout_weight="3"
-            android:id="@+id/cikar"
-            android:onClick="cikar"/>
-        <CheckBox
-            android:id="@+id/chk1"
-            style="?android:attr/starStyle"
-            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/chk1_txt" />
-        <CheckBox
-            android:id="@+id/chk2"
-            style="?android:attr/starStyle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/chk2_txt" />
-    </TableLayout>
+            android:weightSum="6">
+            <TableRow>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="30sp"
+                    android:text="Ekle"
+                    android:layout_gravity="bottom"
+                    android:layout_weight="3"
+                    android:id="@+id/ekle"
+                    android:onClick="ekle"/>
 
-    <RadioGroup
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:layout_marginTop="20dp"
-        android:orientation="vertical"/>
-    <RadioButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/rdb1_txt"
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="30sp"
+                    android:text="Çıkar"
+                    android:layout_gravity="bottom"
+                    android:layout_weight="3"
+                    android:id="@+id/cikar"
+                    android:onClick="cikar"/>
+            </TableRow>
+            <CheckBox
+                android:id="@+id/chk1"
+                style="?android:attr/starStyle"
+                android:layout_width="wrap_content"
 
-        android:checked="true"
-        android:id="@+id/radioButton1"
-        android:layout_marginRight="20dp"/>
-    <RadioButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/rdb2_txt"
+                android:layout_height="wrap_content"
+                android:text="@string/chk1_txt" />
 
-        android:checked="false"
-        android:id="@+id/radioButton2"
-        android:layout_marginRight="20dp"
-        />
+            <CheckBox
+                android:id="@+id/chk2"
+                style="?android:attr/starStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/chk2_txt" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rdb1_txt"
+                android:id="@+id/radioButton1"
+                android:layout_marginRight="20dp"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rdb2_txt"
+                android:id="@+id/radioButton2"
+                android:layout_marginRight="20dp"/>
+        </TableLayout>
+
 
 
 
