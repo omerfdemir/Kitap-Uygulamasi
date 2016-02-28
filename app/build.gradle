@@ -3,6 +3,8 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 23
     buildToolsVersion "23.0.2"
+    compileOptions.encoding="windows-1254"
+
 
     defaultConfig {
         applicationId "com.example.omerf.kitapuygulamasi"

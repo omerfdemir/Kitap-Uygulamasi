@@ -1,11 +1,26 @@
+
 <resources>
     <string name="app_name">KitapUygulamasi</string>
     <string-array name="kitaplar">
         <item>Yüzüklerin Efendisi</item>
         <item>Harry Potter</item>
-        <item>Kitap3</item>
+        <item>Sherlock Holmes</item>
+        <item>Taht Oyunları</item>
     </string-array>
-    <string name="yuzuklerinefendisi">Yüzüklerin Efendisi Açıklama</string>
-    <string name="harrypotter">Harry Potter Açıklama</string>
-    <string name="kitap3">Kitap Açıklama</string>
+    <string name="chk1_txt">Begendim</string>
+    <string name="chk2_txt">Begenmedim</string>
+    <string name="rdb1_txt">Okudum </string>
+    <string name="rdb2_txt">Okumadım </string>
+    <string name="yuzuklerinefendisi"> Yüzuklerin Efendisi, Ingiliz filolojist ve Oxford Universitesi profesoru J.R.R. Tolkien in yazdigi epik fantezi turundeki romandir.
+        Hikaye Tolkien in cocuklar icin yazdigi 1937 tarihli Hobbitin devami olarak baslamisti ancak sonunda ondan cok daha buyuk bir eser haline geldi. </string>
+
+    <string name="harrypotter">Harry Potter, İngiliz yazar J.K.Rowling tarafindan yedi kitap halinde yazilan fantastik roman serisi ve bu kitaplardan uyarlanan film serisidir.
+Harry Potter serisinin ilk kitabi, Harry Potter ve Felsese Tasi, 1997 yilinda piyasaya cikmistir. Yedi kitaplik serinin gunumuz itibariyle tumu tamamlanip satisa sunulmustur.
+Dunyanin En Hizli Satan Kitabi ve Dunyanin En Cok Satilan Cocuk Romani unvanlarina sahiptir. </string>
+    <string name="sherlockholmes"> Sherlock Holmes, Sir Arthur Conan Doyla tarafindan olusturulan Britanyali hayali dedektif kahraman, polisiye edebiyatinin
+    en onemli kisiliklerinden biridir. Gazetelerde basilmis, ve polisiyenin halk arasinda yayginlasmasina yardimci olmustur. </string>
+
+    <string name="gameofthrones"> Taht Oyunlari (Ingilizce: A Game of Thrones), Amerikan yazar George R. R. Martin in yazmakta olduğu epik fantezi roman serisi Buz ve Atesin Sarkisinin ilk romanidir. Ilk defa 6 Agustos 1996 da yayimlandi.
+        Roman, 1997 Locus Odulunu kazandi ayrica 1998 Nebula Odulu ile 1997 Dunya Fantezi Odulune aday gösterildi. Romandaki Daenerys Targaryen bölümlerini iceren Blood of the Dragon kisa romani, En Iyi Kisa Roman dalinda 1997 de Hugo Odulunu kazandi.
+        Ocak 2011de roman, New York Times en cok satani oldu ve Temmuz 2011de bir numaraya yukseldi.</string>
 </resources>

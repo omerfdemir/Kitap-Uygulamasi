@@ -36,18 +36,20 @@ public class MainActivity extends AppCompatActivity {
                 baslik = (String) ((TextView) view).getText();
                 builder.setTitle(baslik);
                 switch (baslik) {
-                    case "YÃ¼zÃ¼klerin Efendisi":
+                    case "Yüzüklerin Efendisi":
                         aciklama = getResources().getString(R.string.yuzuklerinefendisi);
                         break;
-                    //strings.xml den veri Ã§ekmek iÃ§in kullanÄ±lÄ±r.
+                    //strings.xml den veri çekmek için kullanýlýr.
                     //getResources().getString(R.string.yuzuklerinefendisi);
 
                     case "Harry Potter":
                         aciklama = getResources().getString(R.string.harrypotter);
                         break;
-                    case "Kitap3":
-                        aciklama = getResources().getString(R.string.kitap3);
+                    case "Sherlock Holmes":
+                        aciklama = getResources().getString(R.string.sherlockholmes);
                         break;
+                    case "Taht Oyunlarý":
+                        aciklama =  getResources().getString(R.string.gameofthrones);
                 }
                 builder.setMessage(aciklama);
                 builder.show();
@@ -62,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
         cikar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this,"Ã‡Ä±karÄ±ldÄ±",Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivity.this,"Çýkarýldý",Toast.LENGTH_LONG).show();
             }
         });
 
