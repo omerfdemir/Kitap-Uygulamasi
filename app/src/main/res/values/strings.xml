@@ -26,6 +26,8 @@
     <string name="chk2_txt">Begenmedim</string>
     <string name="rdb1_txt">Okudum </string>
     <string name="rdb2_txt">Okumadım </string>
+    <string name="edtxt1">KitapAdi</string>
+    <string name="edtxt2">KitapYazar</string>
 
     <string name="yuzuklerinefendisi"> Yüzuklerin Efendisi, Ingiliz filolojist ve Oxford Universitesi profesoru J.R.R. Tolkien in yazdigi epik fantezi turundeki romandir.
         Hikaye Tolkien in cocuklar icin yazdigi 1937 tarihli Hobbitin devami olarak baslamisti ancak sonunda ondan cok daha buyuk bir eser haline geldi. </string>
