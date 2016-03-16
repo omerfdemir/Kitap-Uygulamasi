@@ -9,32 +9,32 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.sql.SQLException;
 
+
+
 public class DatabaseHelper extends android.database.sqlite.SQLiteOpenHelper {
     private static final int VERSION=1;
     private static final String DB_PATH = "/data/data/kitap-uygulamasi/databases/";
-    private static final String DB_NAME ="kitap-uygulamasi";
+    private static final String DB_NAME ="Kitap-Uygulamasi";
     private SQLiteDatabase sqLiteDatabase;
     private Context mContext;
+
+
     public DatabaseHelper (Context context)
     {
         super (context, DB_NAME, null, VERSION);
         mContext = context;
 
     }
-    @Override
-    public void onCreate(SQLiteDatabase db){
-    }
 
-    @Override
-    public void onUpgrade (SQLiteDatabase db, int oldVersion, int newVersion){
-    }
 
     /*
          * Eðer veritabaný yoksa kopyalayýp oluþturacak varsa hiçbir þey yapmayacak
          * metodumuz.
          */
      public void createDataBase() throws IOException {
+
        boolean dbExist = checkDataBase();
+
         if(dbExist){
             //Veritabaný daha önce mevcut o yüzden herhangi bir iþlem yapmaya gerek yok.
         }
@@ -54,7 +54,9 @@ public class DatabaseHelper extends android.database.sqlite.SQLiteOpenHelper {
    //  Veritabaný daha önce oluþturulmuþ mu oluþturulmamýþ mý bunu öðrenmek için yazýlan method.
 
     private boolean checkDataBase() {
+
         SQLiteDatabase checkDB = null;
+
         try
         {
             String myPath = DB_PATH + DB_NAME;
@@ -74,9 +76,11 @@ public class DatabaseHelper extends android.database.sqlite.SQLiteOpenHelper {
     * kopyalayacak metod*/
 
     private void copyDataBase() throws IOException{
+
         InputStream myInput = mContext.getAssets().open(DB_NAME);
         String outFileName = DB_PATH + DB_NAME;
         OutputStream myOutput = new FileOutputStream(outFileName);
+
         byte [] buffer = new byte[1024];
         int length;
         while ((length = myInput.read(buffer)) > 0 ){
@@ -109,7 +113,13 @@ public class DatabaseHelper extends android.database.sqlite.SQLiteOpenHelper {
         super.close();
     }
 
+    @Override
+    public void onCreate(SQLiteDatabase db){
+    }
 
+    @Override
+    public void onUpgrade (SQLiteDatabase db, int oldVersion, int newVersion){
+    }
 
 
 

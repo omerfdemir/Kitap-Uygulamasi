@@ -17,6 +17,7 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.database.sqlite.*;
 
 import org.xml.sax.InputSource;
 
@@ -24,14 +25,16 @@ import java.io.IOException;
 import java.io.StringReader;
 import java.sql.SQLException;
 
+import android.database.sqlite.*;
 
 public class MainActivity extends AppCompatActivity {
-    ListView list1;
-    String baslik,aciklama;
-    Button ekle,cikar;
+    private ListView list1;
+    private String baslik,aciklama;
+    private Button ekle,cikar;
     private ImageView resim;
-    DatabaseHelper dbHelper;
-    EditText ekleEditText,cikarEditText;
+    private DatabaseHelper dbHelper;
+    private EditText ekleEditText,cikarEditText;
+    private SQLiteDatabase veritabani;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -111,6 +114,14 @@ public class MainActivity extends AppCompatActivity {
 
         dbHelper = new DatabaseHelper(this);
         try{
+            dbHelper.openDataBase();
+        }
+        catch(Exception e){
+
+        }
+        //VERÝTABANINI BAÐLARKEN HATA VERDÝ. SORUN OLAN VERÝTABANINI CREATE DÝYEREK TEKRARDAN
+        //OLUÞTURMAK OLDUÐUNU DÜÞÜNÜYORUM.
+       /* try{
             dbHelper.createDataBase();
             dbHelper.openDataBase();
         }
@@ -120,12 +131,13 @@ public class MainActivity extends AppCompatActivity {
         catch (SQLException e) { // hata vermesi sonucu add ile program tarafýndan eklendi.
             e.printStackTrace();
         }
+        */
 
 
         ekle.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //EKLE BUTONUNU VERÝTABANINA BAGLA
+
 
                 Toast.makeText(MainActivity.this, "Eklendi", Toast.LENGTH_LONG).show();
             }
